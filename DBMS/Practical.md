@@ -8,7 +8,7 @@
 CREATE TABLE menu_items (
     item_id INT PRIMARY KEY,
     item_name VARCHAR(100) UNIQUE,
-    price INT(10,2) NOT NULL,
+    price INT NOT NULL,
     category VARCHAR(50)
 );
 ```
